@@ -234,4 +234,5 @@ Hit the command **az login** from Comamnd Prompt or Terminal depending upon your
 
 Fire the below command to create the resources using Bicep script
 
-> az deployment sub create --location WestUS --name ExampleDeployment --template-file main.bicep --parameters main.parameters.json
+> terraform plan
+> terraform apply
